@@ -27,13 +27,12 @@ greater difference in temperature outside, which I want to bring inside. I could
 
   
 ## Problems I've crossed
-### Problem 1 I've burned a temp sensor while trying to feed the fans more power...
-### Solution 1
-
-- Problem 2: don't know which wire is which 
-- Solution 2:
-- Problem 3: RPM is not working 
-- Soloution 3:
+- Problem 1: Unlabeled CPU fan wires  
+- Solution 1: There are 4 slots, I just need the power and ground to be plugged in correctly to label those to, should only take a couple tries to get the right combination... 
+- Problem 2: RPM is outputting out 0 RPM / s. 
+- Soloution 2: I don't really need it to control the fan speeds, as long as the PWM is working, I'm able to achieve what I need, this just would have been nice to see.  
+- Problem 3: The arduino board does not have enough power for 1 fan, yet alone 3 fans. The board provides 5V, but each fan requires 12V and 0.2A... I don't feel like purchasing a $12 jack barrel
+- Solution 3: so I will be going around my house to see what I can unplug, and steal a cable from to solve this issue, will need atleast 0.6A and 12V.
+- Problem 4: I've burned a temp sensor while trying to feed the fans more power...
+- Solution 4: Use seperate parts of the breadboard to power the temp sensor with 5V, and the other side for the power distribution of the 12V jack barrel for the fans. Also good thing the temperature sensor came with 5 sensors !
 - 
-- Problem 4: The arduino board does not have enough power for 1 fan, yet alone 3 fans. The board provides 5V, but each fan requires 12V and 0.2A... I don't feel like purchasing
-  a $12 jack barrel, so I will be going around my house to see what I can unplug, and steal a cable from to solve this issue, will need atleast 0.6A and 12V. 
