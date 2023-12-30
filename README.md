@@ -27,8 +27,8 @@ greater difference in temperature outside, which I want to bring inside. I could
 
   
 ##Problems I've crossed
-###Problem 1 I've burned a temp sensor while trying to feed the fans more power...
-###Solution 1
+- Problem 1 I've burned a temp sensor while trying to feed the fans more power...
+- Solution 1
 
 - Problem 2: don't know which wire is which 
 - Solution 2:
